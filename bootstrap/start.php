@@ -28,7 +28,9 @@ $app->redirectIfTrailingSlash();
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('your-machine-name'),
+	'local'			=> array( 'localhost', '127.0.0.1', '*.dev' ),
+	'staging' 		=> array( 'beta.flashingcursor.com' ),
+	'production' 	=> array( 'www.flashingcursor.com', 'flashingcursor.com' )
 
 ));
 

@@ -1,5 +1,9 @@
 /bootstrap/compiled.php
 /vendor
+/app/config/local/*
+/app/config/staging/*
+/app/config/production/*
 composer.phar
 composer.lock
 .DS_Store
+codekit-config.json
