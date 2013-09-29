@@ -5,6 +5,8 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.0.*",
+		"zizaco/confide": "1.0.x",
+		"zizaco/entrust": "dev-master",
 		"kriswallsmith/assetic": "1.1.2",
     	"codesleeve/asset-pipeline": "dev-master"		
 	},
